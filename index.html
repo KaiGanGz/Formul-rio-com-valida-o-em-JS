@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com validação</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-menssage">
+        <h2 id="main-text">FICOU COM DÚVIDA? <br> NOS MANDE MENSAGEM!</h2>
+        <p id="short-text">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato
+            em menos de 24h.</p>
+    </div>
+
+    <form class="questionnaire">
+        <input class="nome input" name="nome" type="text" placeholder="Nome completo *">
+        <p class="campo-obrigatorio hidden">campo obrigatório</p>
+        <input class="email input" name="email" type="email" placeholder="Email *">
+        <p class="campo-obrigatorio hidden">campo obrigatório</p>
+        <input class="telefone input" name="telefone" type="tel" placeholder="Número *">
+        <p class="campo-obrigatorio hidden">campo obrigatório</p>
+        <input class="mensagem input" name="mensagem" type="text" placeholder="Mensagem *">
+        <p class="campo-obrigatorio hidden">campo obrigatório</p>
+        <p class="campos-obrigatorios">*campos obrigatórios</p>
+        <input class="btn" type="submit" value="Enviar" size="10">
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>

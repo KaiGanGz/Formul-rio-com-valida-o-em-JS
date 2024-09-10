@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    background-image: url(src/img/bg-repeat.jpg);
+    background-size: 100vw 100vh;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.questionnaire{
+    height: 370px;
+    width: 340px;
+    background-color: #fff;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    border-radius: 5px;
+}
+
+input.input{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    height: 35px;
+    border: solid 1px;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+input.btn{
+    margin-top: 20px;
+    height: 40px;
+    position: relative;
+    bottom: -10px;
+    border-radius: 7px;
+    border: solid 1px #3bcc87;
+    background-color: #3bcc87;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
+input.mensagem{
+    height: 100px;
+}
+
+#main-text{
+    width: 400px;
+}
+
+#short-text{
+    width: 400px;
+}
+
+.campos-obrigatorios{
+    color: black;
+    font-size: 15px;
+}
+
+.campo-obrigatorio{
+    color: firebrick;
+    margin: 0;
+    padding: 0;
+    font-size: 8px;
+    line-height: 10px;
+    margin-bottom: 7px;
+}
+
+.campo-obrigatorio.hidden{
+    color: #fff;
+}
+
+.input.preencher{
+    border: solid 1px firebrick;
+}
+
+.input.preenchido{
+    border: solid 1px #3bcc87;
+}
